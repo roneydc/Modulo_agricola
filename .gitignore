@@ -4,8 +4,6 @@ __pycache__/
 venv/
 .env
 out/
-*.tif
-*.tiff
 *.zip
 .pytest_cache/
 .ruff_cache/

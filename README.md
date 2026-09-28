@@ -58,8 +58,7 @@ Precisa só de Postgres. O storage vai para disco e o processamento roda no
 próprio processo da API, sem Redis nem worker separado.
 
 ```powershell
-docker run -d --name zon-db -e POSTGRES_USER=zon -e POSTGRES_PASSWORD=zon `
-  -e POSTGRES_DB=zoneamento -p 5432:5432 postgis/postgis:16-3.4
+docker run -d --name zon-db -e POSTGRES_USER=zon -e POSTGRES_PASSWORD=zon -e POSTGRES_DB=zoneamento -p 5432:5432 postgis/postgis:16-3.4
 
 copy .env.example .env
 alembic upgrade head
