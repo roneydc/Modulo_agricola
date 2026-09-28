@@ -32,7 +32,7 @@ testando o `cli.py` com passos extras em vez da plataforma.
 
 ```bash
 pip install -r requirements.txt
-make dados                       # gera GeoTIFFs sintéticos
+
 python cli.py ./dados/t1.tif --zonas 5 --mediana 5 --saida ./out -v
 ```
 
